@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css?family=Jockey+One|Spinnaker');
+
+body {
+	font-family: 'Spinnaker', sans-serif !important;
+	overflow-x: hidden;
+}
+
+#visual{
+	background: url(../assets/physics.jpg) ;
+	background-repeat: repeat-x;
+	background-size: auto 100%;
+}
+
+#visual .pc-profile-pic {
+	max-width:30%;
+	float: right;
+	position: relative;
+	right:100px;
+}
+
+#visual .mobile-profile-pic {
+	max-width:70%;
+	float: right;
+}
+#visual .title {
+	color: white;
+	background-color: rgba(255,255,255,0.5);
+	display:inline-block; 
+	font-family: 'Jockey One', sans-serif;
+	text-shadow: 5px 5px black;
+}
+
+#visual .bottom{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	z-index: 1;
+}
+
+#visual .pc-school {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	z-index: 1;
+}
+
+#visual .pc-school img{
+	float: right;
+	width: 45%;
+	position: relative;
+	left: 50px;
+	top: 45px;
+}
+
+#about .mobile-school {
+	width: 100%;
+}
+
+#about .degree {
+	background-color: #FDD54F;
+	font-family: 'Jockey One', sans-serif;
+}
+
+#about .since {
+}
+
+#about .value-props {
+	text-align: center;
+	margin: 50px 0 10px 0px;
+}
+
+#about .value-props img {
+	background: #FDD54F;
+	border-radius:25%;
+	display:inline-block;
+	padding:30px;
+	width:60%;
+	z-index: 1;
+}
+
+#about .mission {
+	padding: 10px 0px;
+	background-color: black;
+	color: #FDD54F;
+}
+
+#pricing {
+	background-color: #FDD54F;
+	padding: 100px 0;
+	text-align: center
+}
+
+#testimonial {
+	color:white;
+	background-color: black;
+}
+
+#testimonial .mobile-testimonial{
+	height: 600px;
+	padding: 100px 0;
+}
+
+#testimonial .pc-testimonial{
+	height: 350px;
+	padding: 100px 0;
+}
+
+#testimonial .name {
+	float:right;
+}
+
+#contact {
+	padding: 50px 0px;
+}
+
+#contact img {
+	background: #FDD54F;
+	border-radius:25%;
+	padding:10px;
+	width:15%;
+}
+
+#contact .icon {
+	margin: 20px 0px;
+}
+
+#contact h1, #contact p {
+	display:inline-block !important;
+}
+
+#contact .subheader {
+	margin-bottom: 30px;
+}
+
+#footer {
+	color: white;
+	padding: 50px 0px;
+	background-color: black;
+	width: 100%;
+}
+
+@media (max-width: 991px) {
+	.container{
+		margin:0px !important;
+		max-width: 100% !important;
+	}
+}
