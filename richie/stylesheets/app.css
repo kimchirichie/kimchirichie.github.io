@@ -25,7 +25,6 @@ html {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    font-size: 1.8rem;
 }
 
 .hero ul li {
@@ -43,8 +42,15 @@ html {
 .hero ul li a:hover {
     color: #c5c5c5;
 }
-@media (max-width: 575.98px) {
+@media (max-width: 359px) {
     .hero ul {
         font-size: 1rem;
     }
 }
+@media (min-width: 360px) {
+    .hero ul {
+        font-size: 1.8rem;
+    }
+}
+
+
