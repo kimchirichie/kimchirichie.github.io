@@ -4,6 +4,9 @@ html {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    /*the next two lines are used for android support*/
+    height: 100%;
+    overflow: hidden;
 }
 
 .hero {
