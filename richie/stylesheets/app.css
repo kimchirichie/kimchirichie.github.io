@@ -14,7 +14,7 @@ html {
     top: 50%;
 }
 
-.hero h1, .hero h2 {
+.hero h1, .hero h3 {
     font-family: 'Permanent Marker', cursive;
     color: #f3f3f3;
     text-shadow: #8e8e8e 1px 1px;
@@ -42,4 +42,9 @@ html {
 
 .hero ul li a:hover {
     color: #c5c5c5;
+}
+@media (max-width: 575.98px) {
+    .hero ul {
+        font-size: 1rem;
+    }
 }
